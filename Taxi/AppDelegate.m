@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  Taxi
 //
-//  Created by Malik Imran on 8/31/14.
-//  Copyright (c) 2014 Malik.Imran. All rights reserved.
+
+//  Copyright (c)Jaxon Stevens All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "Home.h"
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -18,6 +18,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    //Home *viewController = [[Home alloc] init];
+    self.viewController = [[Home alloc] initWithNibName:@"Home" bundle:nil];
+    self.window.rootViewController = self.viewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

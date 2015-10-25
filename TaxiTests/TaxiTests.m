@@ -2,8 +2,8 @@
 //  TaxiTests.m
 //  TaxiTests
 //
-//  Created by Malik Imran on 8/31/14.
-//  Copyright (c) 2014 Malik.Imran. All rights reserved.
+ 8/31/14.
+//  Copyright (c)Jaxon Stevens All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

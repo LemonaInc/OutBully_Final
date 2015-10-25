@@ -2,8 +2,8 @@
 //  main.m
 //  Taxi
 //
-//  Created by Malik Imran on 8/31/14.
-//  Copyright (c) 2014 Malik.Imran. All rights reserved.
+
+//  Copyright (c)Jaxon Stevens All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
