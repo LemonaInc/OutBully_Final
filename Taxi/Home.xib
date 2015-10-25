@@ -112,7 +112,7 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="backgroundAniEnabled" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <action selector="Report:" destination="-1" eventType="touchUpInside" id="VUp-qo-3yg"/>
+                        <action selector="BookNow:" destination="-1" eventType="touchUpInside" id="QQM-7h-jcd"/>
                     </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Circlr.png" translatesAutoresizingMaskIntoConstraints="NO" id="tSJ-ce-6z3">
